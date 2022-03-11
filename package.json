@@ -1,0 +1,17 @@
+{
+    "name": "hunt-api",
+    "version": "1.0.0",
+    "description": "Simple json-server database to deploy to the cloud",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "keywords": [
+        "json-server, node, REST API"
+    ],
+    "author": "David Clark",
+    "license": "ISC",
+    "dependencies": {
+        "json-server": "^0.14.2"
+    }
+}
