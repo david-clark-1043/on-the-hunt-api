@@ -12,10 +12,29 @@
     }
   ],
   "hunts": [
+    {
+      "id": 1,
+      "userId": 1,
+      "title": "Nashville Hunt",
+      "rewardText": "Congrats on finishing Nashville Hunt!"
+    }
   ],
   "userHunts": [
+    {
+      "id": 1,
+      "userId": 1,
+      "stepsCompleted": 0
+    }
   ],
   "clues": [
+    {
+      "id": 1,
+      "huntId": 1,
+      "clueIndex": 1,
+      "clueText": "Hint 1 for Nashville Hunt",
+      "clueAnswer": "Answer for Hint 1 for Nashville Hunt",
+      "clueType": 2
+    }
   ],
   "clueTypes": [
     {
