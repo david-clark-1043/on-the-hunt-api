@@ -12,10 +12,30 @@
     }
   ],
   "hunts": [
+    {
+      "id": 1,
+      "title": "Test Hunt",
+      "rewardText": "Congrats!",
+      "userId": 1
+    }
   ],
   "userHunts": [
+    {
+      "id": 1,
+      "userId": 2,
+      "huntId": 1,
+      "stepsCompleted": 1
+    }
   ],
   "clues": [
+    {
+      "id": 1,
+      "clueText": "Test Hint",
+      "clueAnswer": "Test Answer",
+      "clueIndex": 1,
+      "clueTypeId": 2,
+      "huntId": 1
+    }
   ],
   "clueTypes": [
     {
