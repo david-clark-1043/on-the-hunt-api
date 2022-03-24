@@ -1,15 +1,42 @@
 {
   "users": [
-    {
-      "id": 1,
-      "name": "David Clark",
-      "email": "d@fakeemail.com"
-    },
-    {
-      "id": 2,
-      "name": "Kelsey Keny",
-      "email": "k@fakeemail.com"
-    }
+    [
+      {
+        "id": 1,
+        "name": "David1",
+        "email": "d@fakeemail.com"
+      },
+      {
+        "id": 2,
+        "name": "Kelsey Keny",
+        "email": "k@fakeemail.com"
+      },
+      {
+        "name": "David2",
+        "email": "d@clark",
+        "id": 3
+      },
+      {
+        "name": "Christian C Haggerty",
+        "email": "captivationstation@gmail.com",
+        "id": 4
+      },
+      {
+        "name": "Henry House",
+        "email": "hankhaus99@gmail.com",
+        "id": 5
+      },
+      {
+        "name": "Jajuan Jones",
+        "email": "jajuan@jones.com",
+        "id": 7
+      },
+      {
+        "name": "Eric Gaston",
+        "email": "gastone2@winthrop.edu",
+        "id": 9
+      }
+    ]
   ],
   "hunts": [
     {
@@ -17,14 +44,56 @@
       "title": "Test Hunt",
       "rewardText": "Congrats!",
       "userId": 1
+    },
+    {
+      "title": "Test Drag",
+      "rewardText": "Congrats",
+      "userId": 3,
+      "id": 5
+    },
+    {
+      "title": "Nashville",
+      "rewardText": "Lunch is on me!",
+      "userId": 3,
+      "id": 10
+    },
+    {
+      "title": "test direction",
+      "rewardText": "congrats!",
+      "userId": 3,
+      "id": 11
+    },
+    {
+      "title": "Home Check",
+      "rewardText": "Good Job Working From Home!",
+      "userId": 1,
+      "id": 12
     }
   ],
   "userHunts": [
     {
-      "id": 1,
-      "userId": 2,
       "huntId": 1,
-      "stepsCompleted": 1
+      "userId": 2,
+      "stepsCompleted": 0,
+      "id": 1
+    },
+    {
+      "userId": 2,
+      "stepsCompleted": 3,
+      "huntId": 10,
+      "id": 7
+    },
+    {
+      "huntId": 11,
+      "userId": 2,
+      "stepsCompleted": 1,
+      "id": 9
+    },
+    {
+      "huntId": 12,
+      "userId": 3,
+      "stepsCompleted": 1,
+      "id": 10
     }
   ],
   "clues": [
@@ -35,6 +104,158 @@
       "clueIndex": 1,
       "clueTypeId": 2,
       "huntId": 1
+    },
+    {
+      "clueTypeId": 2,
+      "clueText": "Hint 2",
+      "clueAnswer": "Answer 2",
+      "huntId": 5,
+      "clueIndex": 2,
+      "id": 7
+    },
+    {
+      "clueTypeId": 2,
+      "clueText": "Hint 1",
+      "clueAnswer": "Answer 1",
+      "huntId": 5,
+      "clueIndex": 1,
+      "id": 8
+    },
+    {
+      "clueTypeId": 2,
+      "clueText": "Hint 4",
+      "clueAnswer": "Answer 4",
+      "huntId": 5,
+      "clueIndex": 4,
+      "id": 9
+    },
+    {
+      "clueTypeId": 2,
+      "clueText": "Hint 3",
+      "clueAnswer": "Answer 3",
+      "huntId": 5,
+      "clueIndex": 3,
+      "id": 10
+    },
+    {
+      "clueTypeId": 1,
+      "clueText": "You could grab a hold at this “wealthy” spot",
+      "lat": 36.15180721305636,
+      "lng": -86.84438864871156,
+      "clueAnswer": "Richland Park Library Branch",
+      "clueIndex": 2,
+      "huntId": 10,
+      "id": 22
+    },
+    {
+      "clueTypeId": 1,
+      "clueText": "Greece, approximately",
+      "lat": 36.150153274072835,
+      "lng": -86.81355950948684,
+      "clueAnswer": "The Parthenon",
+      "clueIndex": 1,
+      "huntId": 10,
+      "id": 23
+    },
+    {
+      "clueTypeId": 1,
+      "clueText": "Restaurant all about location, location, location, location, location",
+      "lat": 36.17719893985106,
+      "lng": -86.75049975514412,
+      "clueAnswer": "Five Points Pizza East",
+      "clueIndex": 3,
+      "huntId": 10,
+      "id": 24
+    },
+    {
+      "clueTypeId": 1,
+      "clueText": "sw",
+      "lat": 36.12424117281492,
+      "lng": -86.84407629201345,
+      "clueAnswer": "sw",
+      "clueIndex": 6,
+      "huntId": 11,
+      "id": 25
+    },
+    {
+      "clueTypeId": 1,
+      "clueText": "n",
+      "lat": 36.130776313537204,
+      "lng": -86.84012429368582,
+      "clueAnswer": "n",
+      "clueIndex": 3,
+      "huntId": 11,
+      "id": 26
+    },
+    {
+      "clueTypeId": 1,
+      "clueText": "se",
+      "lat": 36.12281863886231,
+      "lng": -86.83470623147574,
+      "clueAnswer": "se",
+      "clueIndex": 8,
+      "huntId": 11,
+      "id": 27
+    },
+    {
+      "clueTypeId": 1,
+      "clueText": "w",
+      "lat": 36.12701488194205,
+      "lng": -86.84376390709862,
+      "clueAnswer": "w",
+      "clueIndex": 5,
+      "huntId": 11,
+      "id": 28
+    },
+    {
+      "clueTypeId": 1,
+      "clueText": "east",
+      "lat": 36.127224369309985,
+      "lng": -86.83299506691267,
+      "clueAnswer": "east",
+      "clueIndex": 1,
+      "huntId": 11,
+      "id": 29
+    },
+    {
+      "clueTypeId": 1,
+      "clueText": "north east",
+      "lat": 36.13053462990416,
+      "lng": -86.83498518121328,
+      "clueAnswer": "ne",
+      "clueIndex": 2,
+      "huntId": 11,
+      "id": 30
+    },
+    {
+      "clueTypeId": 1,
+      "clueText": "s",
+      "lat": 36.12423631266949,
+      "lng": -86.8402216780161,
+      "clueAnswer": "s",
+      "clueIndex": 7,
+      "huntId": 11,
+      "id": 31
+    },
+    {
+      "clueTypeId": 1,
+      "clueText": "nw",
+      "lat": 36.12955448344041,
+      "lng": -86.8434658705152,
+      "clueAnswer": "nw",
+      "clueIndex": 4,
+      "huntId": 11,
+      "id": 32
+    },
+    {
+      "clueTypeId": 1,
+      "clueText": "Just press the button",
+      "clueAnswer": "Home",
+      "lat": 36.12718314932338,
+      "lng": -86.840156480194,
+      "clueIndex": 1,
+      "huntId": 12,
+      "id": 33
     }
   ],
   "clueTypes": [
