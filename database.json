@@ -1,6 +1,5 @@
 {
   "users": [
-    [
       {
         "id": 1,
         "name": "David1",
@@ -36,7 +35,6 @@
         "email": "gastone2@winthrop.edu",
         "id": 9
       }
-    ]
   ],
   "hunts": [
     {
